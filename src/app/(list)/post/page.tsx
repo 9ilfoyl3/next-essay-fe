@@ -1,10 +1,11 @@
 import React from "react";
+import ContentLayout from "@/components/custom/content-layout";
 
 const PostPage = () => {
   return (
-    <div className="relative w-full h-[100vh]">
-      hello,Its me2222!
-    </div>
+    <ContentLayout title="Post">
+      its
+    </ContentLayout>
   );
 };
 
